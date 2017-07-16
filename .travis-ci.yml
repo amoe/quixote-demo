@@ -7,7 +7,3 @@ before_script:
     - npm install karma-firefox-launcher
 
 script: ". ./jake.sh loose=true capture=Firefox"
-
-#notifications:
-#  email:
-#    on_success: always
