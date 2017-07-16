@@ -10,14 +10,13 @@
 
     // Load an assertion library. You can use any assertion library you
     // want. Here, we use a lightly-modified version of Chai.
-    var assert = require("./assert.js");
+    var assert = require('chai');
 
     // Load Quixote.
     var quixote = require("../vendor/quixote.js");
 
     // Define a test suite using Mocha's standard `define` function.
     describe("Media Object CSS", function() {
-
 	// Variables used by our tests. They're populated in the `before()` and
 	// `beforeEach()` functions.
 	var frame;      // The Quixote test frame.
