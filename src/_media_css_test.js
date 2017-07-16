@@ -8,8 +8,8 @@
 (function() {
     "use strict";
 
-    // Load an assertion library. You can use any assertion library you
-    // want. Here, we use a lightly-modified version of Chai.
+    // Load an assertion library.
+    // Note that it has to run in the browser.
     var assert = require("../vendor/chai-2.1.0");
 
     // Load Quixote.
