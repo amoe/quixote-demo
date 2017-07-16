@@ -10,7 +10,7 @@
 
     // Load an assertion library. You can use any assertion library you
     // want. Here, we use a lightly-modified version of Chai.
-    var assert = require('chai');
+    var assert = require("../vendor/chai-2.1.0");
 
     // Load Quixote.
     var quixote = require("../vendor/quixote.js");
