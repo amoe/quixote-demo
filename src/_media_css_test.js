@@ -10,7 +10,7 @@
 
     // Load an assertion library.
     // Note that it has to run in the browser.
-    var assert = require("../vendor/chai-2.1.0");
+    var chai = require("../vendor/chai-2.1.0");
 
     // Load Quixote.
     var quixote = require("../vendor/quixote.js");
@@ -157,6 +157,8 @@
 		// collapsing correctly.
 		top: figure.top
 	    });
+
+            chai.assert(2, 2, "something");
 	});
 
     });
